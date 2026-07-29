@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+<meta charset="UTF-8">
+
+<title>Scriptura Abyssi</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>☩ SCRIPTURA ABYSSI ☩</h1>
+
+<p class="subtitulo">
+A escrita somente revela sua verdade àqueles que conhecem o Nome.
+</p>
+
+<textarea
+id="texto"
+placeholder="Digite ou cole o texto aqui..."
+></textarea>
+
+<div class="botoes">
+
+<button onclick="cifrar()">
+🔒 Cifrar
+</button>
+
+<button onclick="decifrar()">
+🔓 Decifrar
+</button>
+
+<button onclick="copiar()">
+📋 Copiar
+</button>
+
+<button onclick="limpar()">
+🗑 Limpar
+</button>
+
+</div>
+
+<h2>Resultado</h2>
+
+<textarea
+id="resultado"
+readonly
+></textarea>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
